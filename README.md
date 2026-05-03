@@ -60,3 +60,26 @@ Estos exploits y modelos son SOLO para:
     Educación en ciberseguridad
 
 Cualquier uso ilegal es responsabilidad del usuario.
+
+🚀 CÓMO EJECUTARLO TODO
+# 1. Instalar dependencias pesadas
+pip install -r requirements_deep.txt
+
+# 2. Entrenar modelos zero-day
+python deep_learning/zero_day_detector.py
+
+# 3. Probar exploits (en laboratorio controlado)
+python zero_day/advanced_exploits.py
+
+# 4. Monitoreo en vivo
+python deep_learning/live_prediction.py
+
+⚠️ ÚLTIMO AVISO LEGAL
+## ⚖️ INFORMACIÓN CRÍTICA
+
+Estos **zero-day exploits** son funcionales pero SOLO para:
+- Investigación en entornos aislados
+- Pentesting con contrato firmado
+- CTF y laboratorios educativos
+
+**El autor no se responsabiliza por uso malicioso.**
