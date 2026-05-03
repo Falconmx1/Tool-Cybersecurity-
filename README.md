@@ -49,3 +49,14 @@ python main.py --sniff --interface eth0
 [!] Vulnerabilidad crítica en Apache 2.4.49
 [+] Generando exploit...
 [✔] Shell obtenida en 2.3 segundos
+
+⚠️ LEGAL USE ONLY
+Estos exploits y modelos son SOLO para:
+
+    Pentesting autorizado
+
+    Laboratorios controlados
+
+    Educación en ciberseguridad
+
+Cualquier uso ilegal es responsabilidad del usuario.
