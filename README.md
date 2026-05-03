@@ -50,17 +50,6 @@ python main.py --sniff --interface eth0
 [+] Generando exploit...
 [✔] Shell obtenida en 2.3 segundos
 
-⚠️ LEGAL USE ONLY
-Estos exploits y modelos son SOLO para:
-
-    Pentesting autorizado
-
-    Laboratorios controlados
-
-    Educación en ciberseguridad
-
-Cualquier uso ilegal es responsabilidad del usuario.
-
 🚀 CÓMO USAR TODO
 # 1. Instalar todo
 pip install -r requirements_final.txt
@@ -87,12 +76,19 @@ agent = PentestingAgent(HackingLLM())
 agent.execute_plan('192.168.1.100')
 "
 
-⚠️ ÚLTIMO AVISO LEGAL
-## ⚖️ INFORMACIÓN CRÍTICA
+⚠️ WARNING FINAL ÉPICO
+# Este código debe usarse SOLO en:
+# ✅ Laboratorios controlados (VirtualBox/VMware)
+# ✅ CTF y competiciones autorizadas
+# ✅ Pentesting con contrato firmado
+# ✅ Investigación de seguridad
 
-Estos **zero-day exploits** son funcionales pero SOLO para:
-- Investigación en entornos aislados
-- Pentesting con contrato firmado
-- CTF y laboratorios educativos
+# NUNCA en:
+# ❌ Sistemas sin permiso explícito
+# ❌ Dispositivos personales de terceros
+# ❌ Redes corporativas sin autorización
+
+# EL AUTOR NO SE RESPONSABILIZA POR USO ILEGAL
+# Ciberseguridad ética siempre 🔒
 
 **El autor no se responsabiliza por uso malicioso.**
