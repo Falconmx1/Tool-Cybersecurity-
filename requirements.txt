@@ -19,3 +19,33 @@ colorama
 rich
 psutil
 pywin32; sys_platform == 'win32'
+
+# Móviles
+androguard
+frida-tools
+objection
+idb
+
+# iOS
+pyimg4
+idevicerestore
+
+# LLM
+torch>=2.0.0
+transformers>=4.35.0
+accelerate>=0.24.0
+bitsandbytes>=0.41.0
+peft>=0.6.0
+datasets>=2.14.0
+
+# Pentesting
+scapy>=2.5.0
+nmap-python
+paramiko
+pysmb
+cryptography
+
+# Automatización
+selenium
+beautifulsoup4
+requests-html
