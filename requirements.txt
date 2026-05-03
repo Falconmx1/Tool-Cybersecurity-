@@ -1,10 +1,21 @@
-scapy
-nmap-python
-requests
+# Deep Learning
+tensorflow>=2.13.0
+torch>=2.0.0
+torchvision
+torchaudio
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+joblib>=1.3.0
+
+# Exploits
+scapy>=2.5.0
+requests>=2.31.0
+paramiko>=3.0.0
+cryptography>=41.0.0
+
+# Utilidades
 colorama
 rich
-scikit-learn
-tensorflow>=2.10
-PyYAML
 psutil
-colorlog
+pywin32; sys_platform == 'win32'
