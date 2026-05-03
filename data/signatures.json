@@ -1,0 +1,25 @@
+{
+  "exploits": [
+    {
+      "name": "EternalBlue",
+      "cve": "MS17-010",
+      "port": 445,
+      "signature": "SMBv1 vulnerable",
+      "os": "Windows 7/2008"
+    },
+    {
+      "name": "Log4Shell",
+      "cve": "CVE-2021-44228",
+      "port": 8080,
+      "signature": "JNDI lookup",
+      "os": "Multiplataforma"
+    },
+    {
+      "name": "Dirty Pipe",
+      "cve": "CVE-2022-0847",
+      "port": null,
+      "signature": "pipe buffer overwrite",
+      "os": "Linux 5.8+"
+    }
+  ]
+}
