@@ -61,18 +61,31 @@ Estos exploits y modelos son SOLO para:
 
 Cualquier uso ilegal es responsabilidad del usuario.
 
-🚀 CÓMO EJECUTARLO TODO
-# 1. Instalar dependencias pesadas
-pip install -r requirements_deep.txt
+🚀 CÓMO USAR TODO
+# 1. Instalar todo
+pip install -r requirements_final.txt
+bash llm_models/install_llm.sh
 
-# 2. Entrenar modelos zero-day
-python deep_learning/zero_day_detector.py
+# 2. Exploits móviles (Android)
+python mobile_exploits/android_exploits.py
 
-# 3. Probar exploits (en laboratorio controlado)
-python zero_day/advanced_exploits.py
+# 3. LLM para ataques
+python llm_models/cyber_llm.py
 
-# 4. Monitoreo en vivo
-python deep_learning/live_prediction.py
+# 4. Campaña phishing completa
+python -c "
+from llm_models.cyber_llm import *
+llm = HackingLLM()
+phisher = PhishingAutomation(llm)
+phisher.launch_campaign(['victim@company.com'])
+"
+
+# 5. Agente autónomo
+python -c "
+from llm_models.cyber_llm import *
+agent = PentestingAgent(HackingLLM())
+agent.execute_plan('192.168.1.100')
+"
 
 ⚠️ ÚLTIMO AVISO LEGAL
 ## ⚖️ INFORMACIÓN CRÍTICA
